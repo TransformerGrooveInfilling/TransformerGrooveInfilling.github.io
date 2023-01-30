@@ -21,15 +21,73 @@ To give your project a background in the portfolio page, just add the img tag to
     ---
 
 <html>
-<body>
-
-<audio controls>
-  <source src="https://github.com/AnonUserGit/Examples/blob/main/InfillingClosedHH/0_A_target.wav" type="audio/wav">
-Your browser does not support the audio element.
-</audio>
-
-</body>
+  <head>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th, td {
+        border: 1px solid black;
+        text-align: center;
+        padding: 10px;
+        vertical-align: middle;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+      audio {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Ground Truth</th>
+        <th>Symbolic (Predictions)</th>
+        <th>Audio (Prediction)</th>
+        <th>Symbolic (Mix)</th>
+        <th>Audio (Mix)</th>
+      </tr>
+      <?php for ($i = 0; $i <= 115; $i++): ?>
+      <tr>
+        <td>
+          <audio controls>
+            <source src="https://github.com/AnonUserGit/Examples/raw/<?php echo $i; ?>_gt.wav" type="audio/wav">
+            Your browser does not support the audio element.
+          </audio>
+        </td>
+        <td>
+          <audio controls>
+            <source src="https://github.com/AnonUserGit/Examples/raw/<?php echo $i; ?>_sym_pred.wav" type="audio/wav">
+            Your browser does not support the audio element.
+          </audio>
+        </td>
+        <td>
+          <audio controls>
+            <source src="https://github.com/AnonUserGit/Examples/raw/<?php echo $i; ?>_audio_pred.wav" type="audio/wav">
+            Your browser does not support the audio element.
+          </audio>
+        </td>
+        <td>
+          <audio controls>
+            <source src="https://github.com/AnonUserGit/Examples/raw/<?php echo $i; ?>_sym_mix.wav" type="audio/wav">
+            Your browser does not support the audio element.
+          </audio>
+        </td>
+        <td>
+          <audio controls>
+            <source src="https://github.com/AnonUserGit/Examples/raw/<?php echo $i; ?>_audio_mix.wav" type="audio/wav">
+            Your browser does not support the audio element.
+          </audio>
+        </td>
+      </tr>
+      <?php endfor; ?>
+    </table>
+  </body>
 </html>
+
 
 
 
