@@ -32,6 +32,8 @@
 <ul class="ul1">
   <li class="li2"><span class="s6"></span><span class="s3">{%- for page in site.pages -%} {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %} {% endfor %}</span></li>
   <li class="li1"><span class="s6"><a href="file:///Users/behzadhaki/Github/AnonUserGit.github.io/_includes/%7B%7B%20'/'%20%7C%20relative_url%20%7D%7D"><span class="s7">{{ about_title }} {%- if page.permalink == '/' -%} (current) {%- endif -%}<span class="Apple-converted-space"> </span></span></a></span></li>
+  <li class="li2"><span class="s6"></span><span class="s3">{% if site.blog_nav_title %}</span></li>
+  <li class="li1"><span class="s6"><a href="file:///Users/behzadhaki/Github/AnonUserGit.github.io/_includes/%7B%7B%20'/blog/'%20%7C%20relative_url%20%7D%7D"><span class="s7">{{ site.blog_nav_title }} {%- if page.url contains 'blog' -%} (current) {%- endif -%}<span class="Apple-converted-space"> </span></span></a></span></li>
   <li class="li2"><span class="s6"></span><span class="s3">{%- endif %} {%- assign sorted_pages = site.pages | sort: "nav_order" -%} {%- for p in sorted_pages -%} {%- if p.nav and p.autogen == nil -%} {%- if p.dropdown %}</span></li>
   <li class="li2"><span class="s8"></span><span class="s2">{{ p.title }} {%- if page.title == p.title -%} (current) {%- endif -%} </span><span class="s3">{%- for child in p.children -%} {%- if child.title == 'divider' %} <br>
 {%- else %} <a href="file:///Users/behzadhaki/Github/AnonUserGit.github.io/_includes/%7B%7B%20child.permalink%20%7C%20relative_url%20%7D%7D"><span class="s2">{{ child.title }}</span></a> {%- endif -%} {% endfor %} <br>
