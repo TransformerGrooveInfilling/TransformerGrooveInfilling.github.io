@@ -23,7 +23,7 @@ More examples can be found https://anonusergit.github.io/assets/wav/
     ---
 
 
-`NOTE` that the generated events are quieter than the ground truth. No adjustment was made for creating the mixed versions to demonstrate the `poor performance` of the model in replicating velocities. 
+`NOTE` that the generated events are quieter than the ground truth. No adjustment was made for creating the mixed versions to demonstrate the performance of the model in replicating velocities. 
 
 
 <style>
@@ -69,6 +69,7 @@ th {
     {% endfor %}
   </tbody>
 </table>
+
 
 
 
