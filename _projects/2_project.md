@@ -8,7 +8,7 @@ category: InfillingKS
 
 Below are the examples for the InfillingKicksAndSnares model
 
-More examples can be found https://anonusergit.github.io/assets/wav/
+More examples can be found `https://anonusergit.github.io/assets/wav/`
 
 
     ---
@@ -18,7 +18,7 @@ More examples can be found https://anonusergit.github.io/assets/wav/
     ---
 
 
-`NOTE` that the generated events are quieter than the ground truth. No adjustment was made for creating the mixed versions to demonstrate the `poor performance` of the model in replicating velocities. 
+`NOTE` that the generated events are quieter than the ground truth. No adjustment was made for creating the mixed versions to demonstrate the performance of the model in replicating velocities. 
 
 
 
@@ -56,8 +56,8 @@ th {
     <tr>
       <td>{{ x }}</td>
       <td><audio controls><source src="{{ site.baseurl }}/assets/wav/InfillingKicksAndSnares/{{ x }}_A_target.wav"></audio></td>
-      <td><audio controls><source src="{{ site.baseurl }}/assets/wav/InfillingKicksAndSnares/{{ x }}_B_ih_prd.wav"></audio></td>
-      <td><audio controls><source src="{{ site.baseurl }}/assets/wav/InfillingKicksAndSnares/{{ x }}_C_ih_mix.wav"></audio></td>
+      <td><audio controls><source src="{{ site.baseurl }}/assets/wav/InfillingKicksAndSnares/{{ x }}_B_ks_prd.wav"></audio></td>
+      <td><audio controls><source src="{{ site.baseurl }}/assets/wav/InfillingKicksAndSnares/{{ x }}_C_ks_mix.wav"></audio></td>
     </tr>
       {% endif %}
     {% endfor %}
