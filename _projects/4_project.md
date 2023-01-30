@@ -1,6 +1,6 @@
 ---
 layout: page
-title: InfillingRandomHigh
+title: Random High
 description: InfillingRH
 importance: 1
 category: InfillingRH
@@ -47,7 +47,7 @@ th {
     </tr>
   </thead>
   <tbody>
-    {% for x in (0..115) %}
+    {% for x in (0..60) %}
       {% if forloop.index0 % 5 == 0 %}
     <tr>
       <td>{{ x }}</td>

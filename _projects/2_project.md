@@ -1,6 +1,6 @@
 ---
 layout: page
-title: InfillingKicksAndSnares
+title: Kicks Snares
 description: InfillingKS
 importance: 1
 category: InfillingKS
@@ -51,7 +51,7 @@ th {
     </tr>
   </thead>
   <tbody>
-    {% for x in (0..115) %}
+    {% for x in (0..60) %}
       {% if forloop.index0 % 5 == 0 %}
     <tr>
       <td>{{ x }}</td>
