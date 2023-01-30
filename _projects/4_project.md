@@ -8,7 +8,7 @@ category: InfillingRH
 
 Below are the examples for the InfillingRandomHigh model
 
-More examples can be found [here](https://anonusergit.github.io/assets/wav/)
+More examples can be found https://anonusergit.github.io/assets/wav/
 
 
     ---

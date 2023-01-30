@@ -9,7 +9,7 @@ category: InfillingClosedHH
 Below Are the examples for the Infilling HiHats Models comparing the symbolic model (IHS) vs the audio one (IH). 
 
 
-More examples can be found [here](https://anonusergit.github.io/assets/wav/)
+More examples can be found https://anonusergit.github.io/assets/wav/
 
 
 
@@ -56,7 +56,7 @@ th {
   </thead>
   <tbody>
     {% for x in (0..115) %}
-	{% if forloop.index0 % 5 == 0 %}
+      {% if forloop.index0 % 5 == 0 %}
     <tr>
       <td>{{ x }}</td>
       <td><audio controls><source src="{{ site.baseurl }}/assets/wav/InfillingClosedHH/{{ x }}_A_target.wav"></audio></td>
@@ -65,9 +65,11 @@ th {
       <td><audio controls><source src="{{ site.baseurl }}/assets/wav/InfillingClosedHH/{{ x }}_C_ih_mix.wav"></audio></td>
       <td><audio controls><source src="{{ site.baseurl }}/assets/wav/InfillingClosedHH/{{ x }}_C_ihs_mix.wav"></audio></td>
     </tr>
+      {% endif %}
     {% endfor %}
   </tbody>
 </table>
+
 
 
 
