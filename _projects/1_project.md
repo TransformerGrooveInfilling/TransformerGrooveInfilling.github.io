@@ -34,8 +34,9 @@ table {
 
 th, td {
   border: 1px solid black;
-  padding: 8px;
+  padding: 4px;
   text-align: center;
+  width: 10%;
 }
 
 th {
@@ -56,7 +57,7 @@ th {
   </thead>
   <tbody>
     {% for x in (0..115) %}
-      {% if forloop.index0 %% 5 == 0 %}
+      {% if forloop.index0 % 5 == 0 %}
     <tr>
       <td>{{ x }}</td>
       <td><audio controls><source src="{{ site.baseurl }}/assets/wav/InfillingClosedHH/{{ x }}_A_target.wav"></audio></td>
@@ -69,6 +70,7 @@ th {
     {% endfor %}
   </tbody>
 </table>
+
 
 
 
