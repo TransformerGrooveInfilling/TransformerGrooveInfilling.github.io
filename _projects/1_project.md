@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: InfillingClosedHH
+description: InfillingClosedHH Symbolic Vs Audio Examples.
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: InfillingClosedHH
 ---
 
 Every project has a beautiful feature showcase page.
