@@ -36,11 +36,11 @@ To give your project a background in the portfolio page, just add the img tag to
     <?php for ($x=0; $x <= 115; $x++) { ?>
     <tr>
       <td><?php echo $x; ?></td>
-      <td><audio controls><source src="assets/wav/InfillingClosedHH/x_A_target.wav"></audio></td>
-      <td><audio controls><source src="assets/wav/InfillingClosedHH/x_B_ih_prd.wav"></audio></td>
-      <td><audio controls><source src="assets/wav/InfillingClosedHH/x_B_ihs_prd.wav"></audio></td>
-      <td><audio controls><source src="assets/wav/InfillingClosedHH/x_C_ih_mix.wav"></audio></td>
-      <td><audio controls><source src="assets/wav/InfillingClosedHH/x_C_ihs_mix.wav"></audio></td>
+      <td><audio controls><source src="/assets/wav/InfillingClosedHH/x_A_target.wav"></audio></td>
+      <td><audio controls><source src="/assets/wav/InfillingClosedHH/x_B_ih_prd.wav"></audio></td>
+      <td><audio controls><source src="/assets/wav/InfillingClosedHH/x_B_ihs_prd.wav"></audio></td>
+      <td><audio controls><source src="/assets/wav/InfillingClosedHH/x_C_ih_mix.wav"></audio></td>
+      <td><audio controls><source src="/assets/wav/InfillingClosedHH/x_C_ihs_mix.wav"></audio></td>
     </tr>
     <?php } ?>
   </tbody>
