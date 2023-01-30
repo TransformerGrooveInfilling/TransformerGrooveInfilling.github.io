@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of your cool projects.
 nav: true
 nav_order: 2
-display_categories: [InfillingClosedHH, InfillingKicksAndSnares, InfillingRandom, InfillingRandomLow]
+display_categories: [InfillingClosedHH, InfillingKS, InfillingRL, InfillingRH]
 horizontal: false
 ---
 
