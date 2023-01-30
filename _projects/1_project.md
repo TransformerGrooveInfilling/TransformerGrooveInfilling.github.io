@@ -20,73 +20,32 @@ To give your project a background in the portfolio page, just add the img tag to
     img: /assets/img/12.jpg
     ---
 
-<html>
-  <head>
-    <style>
-      table {
-        border-collapse: collapse;
-        width: 100%;
-      }
-      th, td {
-        border: 1px solid black;
-        text-align: center;
-        padding: 10px;
-        vertical-align: middle;
-      }
-      th {
-        background-color: #f2f2f2;
-      }
-      audio {
-        width: 100%;
-      }
-    </style>
-  </head>
-  <body>
-    <table>
-      <tr>
-        <th>Ground Truth</th>
-        <th>Symbolic (Predictions)</th>
-        <th>Audio (Prediction)</th>
-        <th>Symbolic (Mix)</th>
-        <th>Audio (Mix)</th>
-      </tr>
-      <?php for ($i = 0; $i <= 115; $i++): ?>
-      <tr>
-        <td>
-          <audio controls>
-            <source src="assets/wav/<?php echo $i; ?>_A_target.wav" type="audio/wav">
-            Your browser does not support the audio element.
-          </audio>
-        </td>
-        <td>
-          <audio controls>
-            <source src="assets/wav/<?php echo $i; ?>_A_target.wav" type="audio/wav">
-            Your browser does not support the audio element.
-          </audio>
-        </td>
-        <td>
-          <audio controls>
-            <source src="assets/wav/<?php echo $i; ?>_A_target.wav" type="audio/wav">
-            Your browser does not support the audio element.
-          </audio>
-        </td>
-        <td>
-          <audio controls>
-            <source src="assets/wav/<?php echo $i; ?>_A_target.wav" type="audio/wav">
-            Your browser does not support the audio element.
-          </audio>
-        </td>
-        <td>
-          <audio controls>
-            <source src="assets/wav/<?php echo $i; ?>_A_target.wav" type="audio/wav">
-            Your browser does not support the audio element.
-          </audio>
-        </td>
-      </tr>
-      <?php endfor; ?>
-    </table>
-  </body>
-</html>
+
+<table>
+  <thead>
+    <tr>
+      <th>INDEX</th>
+      <th>GT</th>
+      <th>IH</th>
+      <th>IHS</th>
+      <th>IH (Mix)</th>
+      <th>IHS (Mix)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <?php for ($x=0; $x <= 115; $x++) { ?>
+    <tr>
+      <td><?php echo $x; ?></td>
+      <td><audio controls><source src="assets/wav/InfillingClosedHH/x_A_target.wav"></audio></td>
+      <td><audio controls><source src="assets/wav/InfillingClosedHH/x_B_ih_prd.wav"></audio></td>
+      <td><audio controls><source src="assets/wav/InfillingClosedHH/x_B_ihs_prd.wav"></audio></td>
+      <td><audio controls><source src="assets/wav/InfillingClosedHH/x_C_ih_mix.wav"></audio></td>
+      <td><audio controls><source src="assets/wav/InfillingClosedHH/x_C_ihs_mix.wav"></audio></td>
+    </tr>
+    <?php } ?>
+  </tbody>
+</table>
+
 
 
 
