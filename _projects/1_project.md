@@ -24,7 +24,7 @@ To give your project a background in the portfolio page, just add the img tag to
 <body>
 
 <audio controls>
-  <source src="https://github.com/AnonUserGit/Examples/blob/main/InfillingClosedHH/0_A_target.wav" type="audio/mpeg">
+  <source src="https://github.com/AnonUserGit/Examples/blob/main/InfillingClosedHH/0_A_target.wav" type="audio/wav">
 Your browser does not support the audio element.
 </audio>
 
