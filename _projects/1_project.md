@@ -54,31 +54,31 @@ To give your project a background in the portfolio page, just add the img tag to
       <tr>
         <td>
           <audio controls>
-            <source src="https://github.com/AnonUserGit/Examples/raw/<?php echo $i; ?>_gt.wav" type="audio/wav">
+            <source src="assets/wav/<?php echo $i; ?>_A_target.wav" type="audio/wav">
             Your browser does not support the audio element.
           </audio>
         </td>
         <td>
           <audio controls>
-            <source src="https://github.com/AnonUserGit/Examples/raw/<?php echo $i; ?>_sym_pred.wav" type="audio/wav">
+            <source src="assets/wav/<?php echo $i; ?>_A_target.wav" type="audio/wav">
             Your browser does not support the audio element.
           </audio>
         </td>
         <td>
           <audio controls>
-            <source src="https://github.com/AnonUserGit/Examples/raw/<?php echo $i; ?>_audio_pred.wav" type="audio/wav">
+            <source src="assets/wav/<?php echo $i; ?>_A_target.wav" type="audio/wav">
             Your browser does not support the audio element.
           </audio>
         </td>
         <td>
           <audio controls>
-            <source src="https://github.com/AnonUserGit/Examples/raw/<?php echo $i; ?>_sym_mix.wav" type="audio/wav">
+            <source src="assets/wav/<?php echo $i; ?>_A_target.wav" type="audio/wav">
             Your browser does not support the audio element.
           </audio>
         </td>
         <td>
           <audio controls>
-            <source src="https://github.com/AnonUserGit/Examples/raw/<?php echo $i; ?>_audio_mix.wav" type="audio/wav">
+            <source src="assets/wav/<?php echo $i; ?>_A_target.wav" type="audio/wav">
             Your browser does not support the audio element.
           </audio>
         </td>
@@ -87,6 +87,7 @@ To give your project a background in the portfolio page, just add the img tag to
     </table>
   </body>
 </html>
+
 
 
 
