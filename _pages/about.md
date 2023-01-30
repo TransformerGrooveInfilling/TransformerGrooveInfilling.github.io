@@ -17,9 +17,10 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 
-To view the demos, go to the projects:
+##View Examples Here
+To view the demos, go to the projects tab, or check out (1) `InfillingHiHats` [here](https://anonusergit.github.io/projects/1_project/), (2) `InfillingKickSnares` [here](https://anonusergit.github.io/projects/2_project/), (3) `InfillingRandomLow` [here](https://anonusergit.github.io/projects/3_project/), (3) `InfillingRandomHigh` [here](https://anonusergit.github.io/projects/4_project/).
 
-
-
-All demo files are available [here](https://anonusergit.github.io/assets/wav/). 
+ 
+## Download Examples
+All demo files can also be downloaded from [here](https://github.com/AnonUserGit/AnonUserGit.github.io/tree/master/assets/wav). 
 
