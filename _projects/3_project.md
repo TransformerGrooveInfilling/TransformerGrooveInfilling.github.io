@@ -50,7 +50,8 @@ th {
   </thead>
   <tbody>
     {% for x in (0..115) %}
-    <tr>
+	{% if forloop.index0 % 5 == 0 %}
+      <tr>
       <td>{{ x }}</td>
       <td><audio controls><source src="{{ site.baseurl }}/assets/wav/InfillingRandomLow/{{ x }}_A_target.wav"></audio></td>
       <td><audio controls><source src="{{ site.baseurl }}/assets/wav/InfillingRandomLow/{{ x }}_B_ks_prd.wav"></audio></td>
