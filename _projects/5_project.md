@@ -22,7 +22,7 @@ Here is a video describing how the plugin works
 
 ## Example Generation Using the Plugin
 
-We have selected 3 types of samples from (freesound.org)[https://freesound.org/). 
+We have selected 3 types of samples from [https://freesound.org/)](https://freesound.org/). 
 
 1. Percussive Loops
 2. Vocal Loops
