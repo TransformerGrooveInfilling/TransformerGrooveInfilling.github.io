@@ -3,7 +3,7 @@ layout: page
 title: Random High
 description: InfillingRandomHigh
 importance: 1
-category: InfillingRandom
+category: Validation Set Examples
 ---
 
 Below are the examples for the InfillingRandomHigh model
@@ -51,9 +51,9 @@ th {
       {% if forloop.index0 % 5 == 0 %}
     <tr>
       <td>{{ x }}</td>
-      <td><audio controls><source src="{{ site.baseurl }}/assets/wav/InfillingRandomLow/{{ x }}_A_target.wav"></audio></td>
-      <td><audio controls><source src="{{ site.baseurl }}/assets/wav/InfillingRandomLow/{{ x }}_B_ir_prd.wav"></audio></td>
-      <td><audio controls><source src="{{ site.baseurl }}/assets/wav/InfillingRandomLow/{{ x }}_C_mix.wav"></audio></td>
+      <td><audio controls><source src="{{ site.baseurl }}/assets/wav/InfillingRandomHigh/{{ x }}_A_target.wav"></audio></td>
+      <td><audio controls><source src="{{ site.baseurl }}/assets/wav/InfillingRandomHigh/{{ x }}_B_ir_prd.wav"></audio></td>
+      <td><audio controls><source src="{{ site.baseurl }}/assets/wav/InfillingRandomHigh/{{ x }}_C_mix.wav"></audio></td>
     </tr>
       {% endif %}
     {% endfor %}

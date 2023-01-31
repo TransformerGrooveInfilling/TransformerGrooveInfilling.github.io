@@ -3,7 +3,7 @@ layout: page
 title: Random Low
 description: InfillingRandomLow
 importance: 1
-category: InfillingRandom
+category: Validation Set Examples
 ---
 
 Below are the examples for the InfillingRandomLow model
@@ -55,7 +55,7 @@ th {
       <td>{{ x }}</td>
       <td><audio controls><source src="{{ site.baseurl }}/assets/wav/InfillingRandomLow/{{ x }}_A_target.wav"></audio></td>
       <td><audio controls><source src="{{ site.baseurl }}/assets/wav/InfillingRandomLow/{{ x }}_B_irl_prd.wav"></audio></td>
-      <td><audio controls><source src="{{ site.baseurl }}/assets/wav/InfillingRandomLow/{{ x }}_C_irl_mix.wav"></audio></td>
+      <td><audio controls><source src="{{ site.baseurl }}/assets/wav/InfillingRandomLow/{{ x }}_C_mix.wav"></audio></td>
     </tr>
       {% endif %}
     {% endfor %}

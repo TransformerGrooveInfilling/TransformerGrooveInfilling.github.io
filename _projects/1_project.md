@@ -3,7 +3,7 @@ layout: page
 title: Closed Hats
 description: Infilling HiHats (Symbolic Vs Audio Versions)
 importance: 1
-category: Infilling HiHats & Infilling KickSnares
+category: Validation Set Examples
 ---
 
 Below Are the examples for the Infilling HiHats Models comparing the symbolic model (IHS) vs the audio one (IH). 
