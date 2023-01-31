@@ -3,7 +3,7 @@ layout: page
 title: Random Low
 description: InfillingRandomLow
 importance: 1
-category: InfillingRandomLow
+category: InfillingRandom
 ---
 
 Below are the examples for the InfillingRandomLow model

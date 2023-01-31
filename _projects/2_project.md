@@ -3,7 +3,7 @@ layout: page
 title: Kicks Snares
 description: InfillingKicksAndSnares
 importance: 1
-category: InfillingKicksAndSnares
+category: Infilling HiHats & Infilling KickSnares
 ---
 
 Below are the examples for the InfillingKicksAndSnares model

@@ -1,14 +1,11 @@
 ---
 layout: page
-title: Random High
-description: InfillingRandomHigh
+title: Real-Time Plugin (VST)
+description: VST Plugin (Demo and Samples)
 importance: 1
 category: InfillingRandom
 ---
 
-Below are the examples for the InfillingRandomHigh model
-
-More examples can be found `https://anonusergit.github.io/assets/wav/`
 
 
     ---

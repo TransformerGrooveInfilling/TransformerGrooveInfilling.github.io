@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: ValidationSetExamples
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Examples generated using the validation set of Groove MIDI Dataset (GMD)
 nav: true
 nav_order: 2
-display_categories: [InfillingHiHats, InfillingKicksAndSnares, InfillingRandomLow, InfillingRandomHigh]
+display_categories: [Infilling HiHats & Infilling KickSnares, Infilling Random, VST Plugin]
 horizontal: false
 ---
 
