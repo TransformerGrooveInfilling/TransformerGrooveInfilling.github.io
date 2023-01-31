@@ -8,8 +8,7 @@ category: Validation Set Examples
 
 Below are the examples for the InfillingRandomLow model
 
-More examples can be found `https://anonusergit.github.io/assets/wav/`
-
+More examples can be found at [https://github.com/AnonUserGit/AnonUserGit.github.io/tree/master/assets/wav](https://github.com/AnonUserGit/AnonUserGit.github.io/tree/master/assets/wav)
 
     ---
     GT: Ground Truth (Complete Version from which small percentage of events are removed)

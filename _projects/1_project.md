@@ -9,7 +9,7 @@ category: Validation Set Examples
 Below Are the examples for the Infilling HiHats Models comparing the symbolic model (IHS) vs the audio one (IH). 
 
 
-More examples can be found `https://anonusergit.github.io/assets/wav/`
+More examples can be found at [https://github.com/AnonUserGit/AnonUserGit.github.io/tree/master/assets/wav](https://github.com/AnonUserGit/AnonUserGit.github.io/tree/master/assets/wav)
 
 
 
