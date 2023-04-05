@@ -26,32 +26,32 @@ social: true  # includes social icons at the bottom of the page
 
 #### Training Source Code
 
-[https://github.com/AnonUserGit/TGI](https://github.com/AnonUserGit/TGI)
+[https://github.com/pelinski/TransformerGrooveInfilling](https://github.com/pelinski/TransformerGrooveInfilling)
 
 #### Validation Set Audio Samples
 
-[Infilling HiHats](https://anonusergit.github.io/projects/1_project/)
+[Infilling HiHats](https://TransformerGrooveInfilling.github.io/projects/1_project/)
 
-[Infilling KickSnares](https://anonusergit.github.io/projects/2_project/)
+[Infilling KickSnares](https://TransformerGrooveInfilling.github.io/projects/2_project/)
 
-[Infilling Random (Low)](https://anonusergit.github.io/projects/3_project/)
+[Infilling Random (Low)](https://TransformerGrooveInfilling.github.io/projects/3_project/)
 
-[Infilling Random (High)](https://anonusergit.github.io/projects/4_project/)
+[Infilling Random (High)](https://TransformerGrooveInfilling.github.io/projects/4_project/)
 
 `OR`
 
-[Download All Here](https://github.com/AnonUserGit/AnonUserGit.github.io/tree/master/assets/wav)
+[Download All Here](https://github.com/TransformerGrooveInfilling/TransformerGrooveInfilling.github.io/tree/master/assets/wav)
 
 
 ## Part 2. Models Deployed as VST
 
-See this [page](https://anonusergit.github.io/projects/5_project/) for all demos. 
+See this [page](https://TransformerGrooveInfilling.github.io/projects/5_project/) for all demos. 
 
 
 
 If you experience any issues with the webpage, below are the direct links available:
 
-- [VST Source Code](https://github.com/AnonUserGit/InfillingTransformerRealTime_VST)
+- [VST Source Code](https://github.com/behzadhaki/InfillingTransformerRealTime.git)
 - [VST Tutorial](https://youtu.be/wiLnZNYUAbM)
 - [Examples with Percussive Inputs](https://youtu.be/Z9aIBfVUX5k)
 - [Examples with Vocal Inputs](https://youtu.be/10RkT089cbA)
